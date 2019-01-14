@@ -1,1 +1,3 @@
-Here, You should create a directory with your ONID similar to instructor's ONID.
+Christina Everdyke's First Assignment
+ONID: everdykc
+Email: everdykc@oregonstate.edu
