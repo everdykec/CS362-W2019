@@ -1,0 +1,121 @@
+unittest1.c:
+Testing isGameOver(): 
+isGameOver(): PASS province supply pile is empty 
+isGameOver(): FAIL province supply pile is negative 
+isGameOver(): PASS three empty supply piles 
+isGameOver(): PASS no empty supply piles 
+File 'dominion.c'
+Lines executed:27.40% of 562
+Branches executed:26.14% of 417
+Taken at least once:20.62% of 417
+Calls executed:16.84% of 95
+Creating 'dominion.c.gcov'
+
+unittest2.c:
+getCost(): PASS when using curse card 
+getCost(): PASS when using estate card 
+getCost(): PASS when using duchy card 
+getCost(): PASS when using province card 
+getCost(): PASS when using copper card 
+getCost(): PASS when using silver card 
+getCost(): PASS when using gold card 
+getCost(): PASS when using adventurer card 
+getCost(): PASS when using council room card 
+getCost(): PASS when using feast card 
+getCost(): FAIL when using gardens card 
+getCost(): PASS when using mine card 
+getCost(): PASS when using remodel card 
+getCost(): PASS when using smithy card 
+getCost(): PASS when using village card 
+getCost(): PASS when using baron card 
+getCost(): PASS when using great hall card 
+getCost(): PASS when using minion card 
+getCost(): PASS when using steward card 
+getCost(): PASS when using tribute card 
+getCost(): PASS when using ambassador card 
+getCost(): PASS when using cutpurse card 
+getCost(): PASS when using embargo card 
+getCost(): PASS when using outpost card 
+getCost(): PASS when using salvager card 
+getCost(): PASS when using sea hag card 
+getCost(): PASS when using treasure map card 
+getCost(): PASS random number 
+getCost(): PASS when using negative number 
+File 'dominion.c'
+Lines executed:27.40% of 562
+Branches executed:26.14% of 417
+Taken at least once:20.62% of 417
+Calls executed:16.84% of 95
+Creating 'dominion.c.gcov'
+
+unittest3.c:
+supplyCount(): PASS when supply is 0 
+supplyCount(): PASS when supply is 1 
+supplyCount(): PASS when supply is negative 
+File 'dominion.c'
+Lines executed:27.40% of 562
+Branches executed:26.14% of 417
+Taken at least once:20.62% of 417
+Calls executed:16.84% of 95
+Creating 'dominion.c.gcov'
+
+unittest4.c:
+updateCoins(): PASS no treasure cards 
+Copper: 5
+updateCoins(): PASS all copper cards 
+Silver: 10
+updateCoins(): PASS all silver cards 
+Gold: 15
+updateCoins(): PASS all gold cards 
+Mix: 9
+updateCoins(): PASS mixed coins: 2 copper, silver, and gold 
+File 'dominion.c'
+Lines executed:27.40% of 562
+Branches executed:26.14% of 417
+Taken at least once:20.62% of 417
+Calls executed:16.84% of 95
+Creating 'dominion.c.gcov'
+
+cardtest1.c:
+newSmithy(): PASS returns 0 
+newSmithy(): FAIL did not add two new cards to hand 
+File 'dominion.c'
+Lines executed:27.40% of 562
+Branches executed:26.14% of 417
+Taken at least once:20.62% of 417
+Calls executed:16.84% of 95
+Creating 'dominion.c.gcov'
+
+cardtest2.c:
+village(): PASS returns 0 
+village(): PASS added card and discard card 
+village(): PASS added two actions 
+File 'dominion.c'
+Lines executed:27.40% of 562
+Branches executed:26.14% of 417
+Taken at least once:20.62% of 417
+Calls executed:16.84% of 95
+Creating 'dominion.c.gcov'
+
+cardtest3.c:
+great_hall(): PASS returns 0 
+great_hall(): PASS added card and discarded card 
+great_hall(): PASS added one actions 
+File 'dominion.c'
+Lines executed:27.40% of 562
+Branches executed:26.14% of 417
+Taken at least once:20.62% of 417
+Calls executed:16.84% of 95
+Creating 'dominion.c.gcov'
+
+cardtest4.c:
+adventurer(): PASS returns 0 
+adventurer(): FAIL empty deck did not change 
+adventurer(): PASS cards were discarded 
+File 'dominion.c'
+Lines executed:27.40% of 562
+Branches executed:26.14% of 417
+Taken at least once:20.62% of 417
+Calls executed:16.84% of 95
+Creating 'dominion.c.gcov'
+
