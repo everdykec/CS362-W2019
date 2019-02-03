@@ -91,7 +91,7 @@ int main(){
     }
 
     //Test the gardens card
-    if(getCost(curse) == 4){
+    if(getCost(gardens) == 4){
         printf("getCost(): PASS when using gardens card \n");
     }
     else{
